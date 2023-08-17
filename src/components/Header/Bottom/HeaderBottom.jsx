@@ -1,4 +1,4 @@
-import React from "react"
+import { useRef } from "react"
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation } from "swiper/modules"
@@ -9,8 +9,8 @@ import styles from "./HeaderBottom.module.css"
 import Container from "components/Container/Container"
 
 const HeaderBottom = () => {
-  const navigationPrevRef = React.useRef(null)
-  const navigationNextRef = React.useRef(null)
+  const navigationPrevRef = useRef(null)
+  const navigationNextRef = useRef(null)
   const saleLinks = [
     {
       id: 1,
