@@ -1,0 +1,47 @@
+.headerBottom {
+  background-color: #17696a;
+  color: #fff;
+  padding: 8px 0;
+}
+
+.headerSwiper {
+  text-align: center;
+}
+
+.headerSwiper {
+    position: relative;
+ & a {
+    text-decoration: underline;
+  }
+
+  & span {
+    font-weight: 900;
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+}
+
+.navBtns{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top:50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 10;
+    opacity: 0.6;
+    transition: .2s;
+    display: flex;
+    &:hover{
+        opacity: 1;
+    transition: .2s;
+    }
+    &.btnPrev{
+        left: 50px;
+    }
+    &.btnNext {
+        right: 50px;
+    }
+}
+

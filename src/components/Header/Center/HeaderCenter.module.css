@@ -1,0 +1,9 @@
+.headerCenter {
+  padding: 20px 0;
+}
+
+.headerCenter > * {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,23 @@
+.headerTop {
+  background-color: #1e212c;
+  padding: 12px 0;
+  color: #fff;
+}
+
+.headerTop span,
+.headerTop a {
+  opacity: 0.6;
+}
+
+.headerTop a {
+  transition: 0.2s;
+}
+.headerTop a:hover  {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.headerTop > * {
+  display: flex;
+  justify-content: space-between;
+}

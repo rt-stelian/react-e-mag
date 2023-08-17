@@ -1,0 +1,44 @@
+.headerBottom {
+  background-color: #17696a;
+  color: #fff;
+  padding: 8px 0;
+}
+
+.headerSwiper {
+  text-align: center;
+}
+
+.headerSwiper {
+  position: relative;
+}
+.headerSwiper a {
+  text-decoration: underline;
+}
+.headerSwiper span {
+  font-weight: 900;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.navBtns {
+  position: absolute;
+  font-size: 20px;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+  opacity: 0.6;
+  transition: 0.2s;
+  display: flex;
+}
+.navBtns:hover {
+  opacity: 1;
+  transition: 0.2s;
+}
+.navBtns.btnPrev {
+  left: 50px;
+}
+.navBtns.btnNext {
+  right: 50px;
+}

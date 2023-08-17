@@ -1,0 +1,77 @@
+.contact a {
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.langSwitcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+}
+
+.langSwitcher > * {
+  transition: 0.2s;
+}
+
+.langSwitcher:hover > * {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.langSwitcher:hover .switcherDropdown {
+ 
+  height: 90px;
+opacity: 1;
+  transition: .3s;
+  pointer-events:all;
+}
+.langSwitcher:hover .switcherChewron {
+  transition: 0.3s;
+  transform: rotate(-180deg);
+}
+
+.switcherDropdown {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  background-color: #1e212c;
+  width: 100%;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  height: 0px;
+  opacity: 0;
+  transition: 0.3s;
+  pointer-events: none;
+}
+
+.switcherDropdown ul {
+    padding: 20px 0 15px;
+}
+
+.switcherDropdown ul li span {
+    padding: 5px 0;
+    transition: .2s;
+    display: inline-block;
+  margin-bottom: 5px;
+}
+.switcherDropdown ul li span:hover {
+    opacity: 1;
+    transition: .2s;
+}
+
+.switcherGlobus {
+  display: flex;
+}
+.switcherChewron {
+  transition: 0.3s;
+  font-size: 16px;
+  display: flex;
+}
