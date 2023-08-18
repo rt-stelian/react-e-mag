@@ -1,0 +1,60 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column h3 {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.column li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.column a {
+  opacity: 0.6;
+  transition: 0.2s;
+}
+.column a:hover {
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.footer {
+  padding: 60px 0 0;
+  background-color: #1e212c;
+  color: #fff;
+}
+.footer > div {
+  display: flex;
+  justify-content: space-between;
+}
+.footer > div:last-child {
+  padding: 20px 15px;
+  justify-content: space-evenly;
+}
+.footer > div:not(:last-child) {
+  padding-bottom: 40px;
+}
+
+.socialBox {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+}
+.socialBox a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(167, 167, 167, 0.2666666667);
+  transition: 0.2s;
+}
+.socialBox a:hover {
+  transition: 0.2s;
+  font-size: 24px;
+  background-color: rgba(167, 167, 167, 0.4588235294);
+}
