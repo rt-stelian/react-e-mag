@@ -1,0 +1,79 @@
+.mainBanner {
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mainBanner h3 {
+  color: #1e212c;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.mainBanner h2 {
+  color: #1e212c;
+  font-size: 72px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin-bottom: 60px;
+}
+
+.textBtnsContainer {
+  position: relative;
+  top: 140px;
+}
+.textBtnsContainer > div {
+  display: flex;
+  gap: 24px;
+}
+
+.customPagination {
+  top: 50px;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  left: 50px;
+  bottom: 100px;
+  z-index: 20;
+}
+.customPagination span {
+  display: inline-block;
+  width: 178px;
+  height: 2px;
+  color: #000;
+  background-color: #424551;
+  font-size: 24px;
+  border-radius: 0;
+}
+
+.arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  font-size: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  cursor: pointer;
+  z-index: 20;
+  transition: 0.2s;
+}
+.arrows:hover {
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.arrowLeft {
+  left: 10px;
+}
+
+.arrowRight {
+  right: 10px;
+}

@@ -1,4 +1,4 @@
-import { useRef } from "react"
+//import { useRef } from "react"
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation } from "swiper/modules"
@@ -9,8 +9,8 @@ import styles from "./HeaderBottom.module.css"
 import Container from "components/Container/Container"
 
 const HeaderBottom = () => {
-  const navigationPrevRef = useRef(null)
-  const navigationNextRef = useRef(null)
+  //const navigationPrevRef = useRef(null)
+  //const navigationNextRef = useRef(null)
   const saleLinks = [
     {
       id: 1,
@@ -37,8 +37,8 @@ const HeaderBottom = () => {
       <Container>
         <Swiper
           navigation={{
-            prevEl: navigationPrevRef.current,
-            nextEl: navigationNextRef.current,
+            prevEl: ".prevelem",
+            nextEl: ".nextelem",
           }}
           loop
           modules={[Navigation]}
@@ -49,14 +49,10 @@ const HeaderBottom = () => {
               <a href={el.link}>{el.linkText}</a>
             </SwiperSlide>
           ))}
-          <div
-            className={`${styles.navBtns} ${styles.btnPrev}`}
-            ref={navigationPrevRef}>
+          <div className={`${styles.navBtns} ${styles.btnPrev} prevelem`}>
             <FiChevronLeft />
           </div>
-          <div
-            className={`${styles.navBtns} ${styles.btnNext}`}
-            ref={navigationNextRef}>
+          <div className={`${styles.navBtns} ${styles.btnNext} nextelem`}>
             <FiChevronRight />
           </div>
         </Swiper>
