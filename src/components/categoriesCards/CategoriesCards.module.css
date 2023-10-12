@@ -1,0 +1,36 @@
+.categoriesCards {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  top: -50px;
+  z-index: 10;
+}
+
+.cardTitle {
+  display: block;
+  text-align: center;
+}
+
+.cardImg {
+  position: relative;
+  display: inline-block;
+  border-radius: 10px;
+  width: 390px;
+  height: 390px;
+  margin-bottom: 20px;
+}
+.cardImg::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #000;
+  opacity: 0;
+  transition: 0.2s;
+  pointer-events: none;
+}
+.cardImg:hover::before {
+  opacity: 0.2;
+  transition: 0.2s;
+}

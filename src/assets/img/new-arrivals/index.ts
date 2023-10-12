@@ -1,0 +1,6 @@
+export { default as cap } from "./cap.png"
+export { default as babyRomp } from "./baby-romp.png"
+export { default as babyShoes } from "./baby-shoes.png"
+export { default as earRings } from "./earrings.png"
+export { default as jeans } from "./jeans.png"
+export { default as sunglasses } from "./sunglasses.png"

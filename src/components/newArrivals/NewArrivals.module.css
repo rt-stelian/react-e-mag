@@ -1,0 +1,17 @@
+.newArrivalsSection {
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+.newArrivalsSwiper {
+  overflow-y: visible;
+}
+
+.newArrivalsCard {
+  background-repeat: no-repeat;
+}
+
+.cardImg {
+  margin-bottom: 20px;
+}

@@ -9,7 +9,7 @@ interface MainBannerDataInterface {
   img: ReactNode
 }
 
-export const MainBannerData: MainBannerDataInterface[] = [
+export const mainBannerData: MainBannerDataInterface[] = [
   {
     suptitle: "new collection",
     title: "Meanswear 2022",

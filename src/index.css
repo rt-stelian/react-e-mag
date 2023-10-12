@@ -116,6 +116,29 @@ h6 {
   color: #fff;
 }
 
+.arrivals-pagination {
+  position: absolute;
+  bottom: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  gap: 6px;
+  display: flex;
+}
+.arrivals-pagination .swiper-pagination-bullet {
+  display: block;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #b3b7bc;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.arrivals-pagination .swiper-pagination-bullet-active {
+  opacity: 1;
+  transition: 0.2s;
+}
+
 .custom-pagination {
   position: absolute;
   bottom: 180px;
@@ -124,18 +147,16 @@ h6 {
   display: flex;
 }
 .custom-pagination .swiper-pagination-bullet {
-  display: flex;
   flex-direction: column;
   opacity: 0.4;
   cursor: pointer;
-  display: inline-block;
+  display: inline-flex;
   width: 178px;
   height: 2px;
   color: #000;
   background-color: #424551;
   font-size: 24px;
   border-radius: 0;
-  background-color: #424551;
   transition: 0.2s;
   position: relative;
 }
@@ -149,4 +170,65 @@ h6 {
   font-family: Ubuntu;
   font-size: 28px;
   font-weight: 700;
+}
+
+.main-titles {
+  font-family: Lato;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.subtitle-section {
+  color: #787a80;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+.subtitle-section a {
+  color: #17696a;
+  margin-top: 15px;
+  display: inline-block;
+  transition: 0.2s;
+}
+.subtitle-section a:hover {
+  color: #10494a;
+  transition: 0.2s;
+}
+
+.small-titles {
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: #1e212c;
+  transition: 0.2s;
+}
+.small-titles:hover {
+  transition: 0.2s;
+  opacity: 0.8;
+}
+
+.card-descriptions {
+  color: #424551;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0 10px 15px;
+  text-align: left;
+}
+
+.card-normal-price {
+  color: #1e212c;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0 0 10px 15px;
+  text-align: left;
 }

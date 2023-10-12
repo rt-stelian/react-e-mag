@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination, Navigation } from "swiper/modules"
-import { MainBannerData } from "./MainBannerData"
+import { mainBannerData } from "./MainBannerData"
 import ButtonVide from "UI/buttons/ButtonVide"
 import ButtonGreen from "UI/buttons/ButtonGreen"
 import styles from "./MainBanner.module.css"
@@ -30,7 +30,7 @@ const MainBanner = () => {
           nextEl: ".main-swiper-next",
         }}
         className='main-swiper'>
-        {MainBannerData.map((item) => (
+        {mainBannerData.map((item) => (
           <SwiperSlide
             key={item.link}
             className={styles.mainBanner}
