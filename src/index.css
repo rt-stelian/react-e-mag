@@ -84,38 +84,6 @@ h6 {
   flex: 1 1 auto;
 }
 
-.btn {
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  display: flex;
-  padding: 15px 35px;
-  align-items: center;
-  border-radius: 4px;
-  border: 1px solid #17696a;
-  transition: 0.2s;
-}
-
-.buttonGreen {
-  background-color: #17696a;
-  color: #fff;
-}
-.buttonGreen:hover {
-  transition: 0.2s;
-  background-color: transparent;
-  color: #17696a;
-}
-
-.buttonVid {
-  background-color: transparent;
-  color: #17696a;
-}
-.buttonVid:hover {
-  transition: 0.2s;
-  background-color: #17696a;
-  color: #fff;
-}
-
 .arrivals-pagination {
   position: absolute;
   bottom: -80px;
@@ -221,6 +189,11 @@ h6 {
   font-weight: 400;
   margin: 0 0 10px 15px;
   text-align: left;
+  transition: 0.2s;
+}
+.card-descriptions:hover {
+  opacity: 0.7;
+  transition: 0.2s;
 }
 
 .card-normal-price {
@@ -231,4 +204,9 @@ h6 {
   font-weight: 700;
   margin: 0 0 10px 15px;
   text-align: left;
+  transition: 0.2s;
+}
+.card-normal-price:hover {
+  opacity: 0.7;
+  transition: 0.2s;
 }

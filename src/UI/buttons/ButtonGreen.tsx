@@ -1,13 +1,15 @@
-import React, { FC } from "react"
+import React, { FC, ReactNode } from "react"
+import "./btn-styles.css"
 
 interface ButtonProps {
-  children: string
+  children: string | ReactNode
   link: string
+  className: string
 }
 
-const ButtonGreen: FC<ButtonProps> = ({ children, link }) => {
+const ButtonGreen: FC<ButtonProps> = ({ children, link, className }) => {
   return (
-    <a className='buttonGreen btn' href={link}>
+    <a className={`buttonGreen btn ${className}`} href={link}>
       {children}
     </a>
   )

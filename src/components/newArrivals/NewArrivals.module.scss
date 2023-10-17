@@ -7,9 +7,27 @@
     overflow-y: visible;
 }
 .newArrivalsCard{
-    background-repeat: no-repeat;
+    width: 285px;
+    display: block;
 }
 
 .cardImg{
+    display: block;
     margin-bottom: 20px;
+    position: relative;
+    border-radius: 5px;
+    //width: 285px;
+    height: 320px;
+    overflow: hidden;
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: .2s;
+    }
+
+    &:hover img {
+transform: scale(1.05);
+transition: .2s;
+    }
 }

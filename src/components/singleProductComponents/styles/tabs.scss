@@ -1,0 +1,19 @@
+.tabs-title{
+    display: flex;
+    margin-bottom: 20px;
+
+    &   .buttonVid {
+        background-color: transparent;
+        color: #17696a;
+        border: none;
+        &:hover {
+          transition: 0.2s;
+          background-color: #17696a;
+          color: #fff;
+        }
+    &.active{
+        border: 1px solid #17696a;
+    }  
+    }
+
+}

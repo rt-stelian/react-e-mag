@@ -1,0 +1,31 @@
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  display: flex;
+  padding: 15px 35px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #17696a;
+  transition: 0.2s;
+}
+
+.buttonGreen {
+  background-color: #17696a;
+  color: #fff;
+}
+.buttonGreen:hover {
+  transition: 0.2s;
+  background-color: transparent;
+  color: #17696a;
+}
+
+.buttonVid {
+  background-color: transparent;
+  color: #17696a;
+}
+.buttonVid:hover {
+  transition: 0.2s;
+  background-color: #17696a;
+  color: #fff;
+}

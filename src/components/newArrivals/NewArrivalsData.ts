@@ -6,6 +6,7 @@ import {
   earRings,
   jeans,
   sunglasses,
+  hoodee,
 } from "../../assets/img/new-arrivals"
 
 interface NewArrivalsData {
@@ -37,10 +38,10 @@ export const newArrivalsData: NewArrivalsData[] = [
     price: `${currency}30.60`,
   },
   {
-    title: "Red dangle earrings",
+    title: "Basic hooded sweatshirt in pink",
     link: "#ewher",
-    img: earRings,
-    price: `${currency}29.95`,
+    img: hoodee,
+    price: `${currency}15.95`,
   },
   {
     title: "Mid-rise slim cropped fit jeans",

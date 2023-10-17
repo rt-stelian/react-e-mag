@@ -1,12 +1,13 @@
 import React from "react"
-import { FiHeart, FiShoppingCart } from "react-icons/fi"
+import { FiShoppingCart } from "react-icons/fi"
+import { PiHeart } from "react-icons/pi"
 import styles from "./Style.module.css"
 
 const CartWhishList = () => {
   return (
     <div className={styles.CartContainer}>
       <div className={styles.whish}>
-        <FiHeart />
+        <PiHeart />
         <span>6</span>
       </div>
       <span></span>

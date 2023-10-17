@@ -1,0 +1,25 @@
+.breadCrumbs {
+  color: #424551;
+  font-size: 14px;
+  background-color: #f4f5f6;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.breadCrumbsHome {
+  font-size: 18px;
+}
+
+.breadCrumbsLink {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.breadCrumbsChevron {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #9a9ca5;
+}
